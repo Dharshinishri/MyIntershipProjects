@@ -1,0 +1,128 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.pricing-container {
+  background-image: url('https://tse4.mm.bing.net/th?id=OIP.HtgD7AyHU3BXlxs1ALokFgHaEK&pid=Api&P=0&h=220');
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  margin-bottom: 10px;
+  background-color: #D3D3D3;
+}
+
+.pricing-header {
+  width: 100%;
+  text-align: center;
+   /* margin-top: 150px; */
+}
+
+.pricing-header h1 {
+  font-size: 36px;
+  margin: 0;
+}
+
+.pricing-header p {
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+.pricing-card {
+  width: 300px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  margin: 20px;
+  margin-bottom: 130px;
+  transition: box-shadow 0.3s ease;
+}
+
+.pricing-card:hover {
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.pricing-card h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.pricing-card p {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.pricing-card ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.pricing-card li {
+  margin: 10px 0;
+}
+
+.pricing-card button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.pricing-card button:hover {
+  background-color: #45a049;
+}
+
+/* Additional CSS for currency selector */
+.pricing-card select {
+  margin-top: 10px;
+  padding: 8px 20px;
+  border-radius: 5px;
+  border: 1px solid #4CAF50; /* Green border */
+  background-color: #3CB043; /* Light green background */
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+.pricing-card select:focus {
+  outline: none;
+  border-color: #45a049; /* Darker green border on focus */
+  box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
+}
+
+.pricing-card select option {
+  padding: 5px;
+  background-color: #F0FFF0; /* Light green background for options */
+}
+
+/* Responsive design */
+@media screen and (max-width: 768px) {
+  .pricing-card {
+    width: calc(50% - 40px);
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .pricing-card {
+    width: calc(100% - 40px);
+  }
+}
