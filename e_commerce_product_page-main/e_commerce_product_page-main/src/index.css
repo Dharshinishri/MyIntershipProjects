@@ -1,0 +1,165 @@
+/* Reset and Basic Styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6; /* Improved readability with increased line height */
+}
+
+/* Header */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Navigation */
+.nav_links {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.nav_links li {
+  margin-right: 20px;
+}
+
+.nav_links li:last-child {
+  margin-right: 0;
+}
+
+.nav_links a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease; /* Smooth transition for link color change */
+}
+
+.nav_links a:hover {
+  color: #ff6347; /* Change link color on hover */
+}
+
+/* Cart */
+.cart {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.cart_count {
+  background-color: #ff6347;
+  color: #fff;
+  border-radius: 50%;
+  padding: 5px 10px;
+  position: absolute;
+  top: -8px;
+  right: -8px;
+}
+
+/* Container */
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+/* Product Slider */
+.product_slider img {
+  max-width: 100%; /* Ensure images are responsive */
+  height: auto;
+}
+
+/* Product Details */
+.product_details {
+  margin-top: 20px;
+}
+
+.product_details h1 {
+  font-size: 24px;
+  margin-bottom: 10px; /* Improved spacing below heading */
+}
+
+.price {
+  margin-top: 10px;
+}
+
+.discounted {
+  color: #ff6347;
+  font-weight: bold;
+}
+
+.original {
+  color: #999;
+  text-decoration: line-through;
+}
+
+/* Quantity Selector */
+.quantity {
+  margin-top: 20px;
+  display: flex;
+  align-items: center; /* Align quantity controls vertically */
+}
+
+.quantity button {
+  background-color: #ff6347;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Smooth transition for button color change */
+}
+
+.quantity button:hover {
+  background-color: #ff463a; /* Change button color on hover */
+}
+
+.quantity span {
+  margin: 0 10px;
+}
+
+/* Add to Cart Button */
+.add_to_cart_btn {
+  background-color: #ff6347;
+  color: #fff;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+  font-size: 18px;
+  transition: background-color 0.3s ease; /* Smooth transition for button color change */
+}
+
+.add_to_cart_btn:hover {
+  background-color: #ff463a; /* Change button color on hover */
+}
+
+/* Footer */
+.footer_content {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Social Links */
+.social_links {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.social_links li {
+  margin-right: 10px;
+}
+
+.social_links img {
+  width: 15px;
+  height: auto;
+}
